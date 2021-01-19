@@ -39,16 +39,31 @@
                                     <segment title="Third"/>
                                 </segments>
                             </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smart Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEf-ss-E0G">
+                                <rect key="frame" x="20" y="323" width="94" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dBa-pn-eFE">
+                                <rect key="frame" x="306" y="318" width="51" height="31"/>
+                                <color key="onTintColor" systemColor="systemPurpleColor"/>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="dBa-pn-eFE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zEf-ss-E0G" secondAttribute="trailing" constant="8" symbolic="YES" id="1zC-9p-chx"/>
                             <constraint firstItem="wdW-oa-0GI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="4nt-PJ-LDC"/>
+                            <constraint firstItem="dBa-pn-eFE" firstAttribute="top" secondItem="o6j-4Q-FGY" secondAttribute="bottom" constant="17" id="7LV-Dp-XK5"/>
                             <constraint firstItem="o6j-4Q-FGY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EED-EH-4RY"/>
                             <constraint firstItem="o6j-4Q-FGY" firstAttribute="top" secondItem="wdW-oa-0GI" secondAttribute="bottom" constant="10" id="ImT-sy-vpS"/>
+                            <constraint firstItem="zEf-ss-E0G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="RxC-yT-zFj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o6j-4Q-FGY" secondAttribute="trailing" constant="20" id="T4l-JI-LLg"/>
+                            <constraint firstItem="zEf-ss-E0G" firstAttribute="top" secondItem="o6j-4Q-FGY" secondAttribute="bottom" constant="22" id="i9J-Hu-XNV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wdW-oa-0GI" secondAttribute="trailing" constant="20" id="uhR-o9-Y5A"/>
                             <constraint firstItem="wdW-oa-0GI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yfb-wb-bJ9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dBa-pn-eFE" secondAttribute="trailing" constant="20" id="zLD-lQ-pW9"/>
                         </constraints>
                     </view>
                 </viewController>
