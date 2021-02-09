@@ -34,7 +34,7 @@
                                 <color key="tintColor" name="AccentColor"/>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dark Mode:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqG-Z1-m01">
-                                <rect key="frame" x="72" y="197" width="89" height="21"/>
+                                <rect key="frame" x="73" y="197" width="89" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -47,7 +47,7 @@
                         <viewLayoutGuide key="safeArea" id="3bP-Ye-PtI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="yqG-Z1-m01" firstAttribute="leading" secondItem="3bP-Ye-PtI" secondAttribute="leading" constant="72" id="0nI-gj-WlC"/>
+                            <constraint firstItem="yqG-Z1-m01" firstAttribute="leading" secondItem="3bP-Ye-PtI" secondAttribute="leading" constant="73" id="0nI-gj-WlC"/>
                             <constraint firstItem="WAY-kf-h2u" firstAttribute="top" secondItem="3bP-Ye-PtI" secondAttribute="top" constant="85" id="5bc-4A-Fqz"/>
                             <constraint firstItem="Iq0-3l-oXL" firstAttribute="centerX" secondItem="3bP-Ye-PtI" secondAttribute="centerX" id="6wN-RO-dOb"/>
                             <constraint firstItem="3bP-Ye-PtI" firstAttribute="trailing" secondItem="VNG-3I-9LN" secondAttribute="trailing" constant="73" id="DYW-xT-Dnh"/>
@@ -155,7 +155,7 @@
         <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <namedColor name="AccentColor">
-            <color red="0.077467434589999995" green="0.68144241800000005" blue="0.034440987649999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.076999999582767487" green="0.6809999942779541" blue="0.034000001847743988" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
