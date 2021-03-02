@@ -116,26 +116,39 @@
                                 </constraints>
                                 <state key="normal" image="LionIMG"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GrassIMG" translatesAutoresizingMaskIntoConstraints="NO" id="urd-3y-YyX">
-                                <rect key="frame" x="15" y="523.5" width="345" height="124.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LeftGrass" translatesAutoresizingMaskIntoConstraints="NO" id="io8-8l-fLb">
+                                <rect key="frame" x="-23" y="534" width="179" height="99"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="179" id="JzF-e7-kiV"/>
+                                    <constraint firstAttribute="height" constant="99" id="c4i-JF-URu"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RightGrass" translatesAutoresizingMaskIntoConstraints="NO" id="hJX-dk-TTY">
+                                <rect key="frame" x="183" y="523" width="213" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="hiW-F2-v0b"/>
+                                    <constraint firstAttribute="width" constant="213" id="m5q-8u-udg"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0hN-C8-0T0"/>
                         <color key="backgroundColor" cyan="0.35490863825999147" magenta="0.01544624101370573" yellow="0.03241412341594696" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="io8-8l-fLb" secondAttribute="bottom" constant="-15" id="0iU-ks-Dhk"/>
                             <constraint firstItem="ukW-Wl-fVR" firstAttribute="top" secondItem="0hN-C8-0T0" secondAttribute="top" constant="35" id="55p-8c-X28"/>
                             <constraint firstItem="H6F-UK-S6C" firstAttribute="top" secondItem="8wE-dH-gf4" secondAttribute="bottom" constant="60" id="5zq-vR-lsP"/>
+                            <constraint firstItem="io8-8l-fLb" firstAttribute="leading" secondItem="764-ED-EHR" secondAttribute="leading" constant="-23" id="BDL-Kl-Ywu"/>
                             <constraint firstItem="pvF-gs-rcw" firstAttribute="top" secondItem="0hN-C8-0T0" secondAttribute="top" constant="33" id="EZL-yE-gRF"/>
-                            <constraint firstItem="0hN-C8-0T0" firstAttribute="bottom" secondItem="urd-3y-YyX" secondAttribute="bottom" constant="-30" id="G8D-IM-rCM"/>
+                            <constraint firstAttribute="trailing" secondItem="hJX-dk-TTY" secondAttribute="trailing" constant="-21" id="F1Y-gD-0Fx"/>
                             <constraint firstItem="pvF-gs-rcw" firstAttribute="leading" secondItem="0hN-C8-0T0" secondAttribute="leading" constant="16" id="Kpw-PV-OU5"/>
                             <constraint firstItem="0hN-C8-0T0" firstAttribute="trailing" secondItem="ukW-Wl-fVR" secondAttribute="trailing" constant="16" id="PQb-gA-qGe"/>
-                            <constraint firstItem="urd-3y-YyX" firstAttribute="leading" secondItem="0hN-C8-0T0" secondAttribute="leading" constant="15" id="XO4-O7-qTA"/>
                             <constraint firstItem="0hN-C8-0T0" firstAttribute="trailing" secondItem="VGB-m1-TZC" secondAttribute="trailing" constant="16" id="XcT-7V-Rad"/>
                             <constraint firstItem="H6F-UK-S6C" firstAttribute="leading" secondItem="0hN-C8-0T0" secondAttribute="leading" constant="16" id="aTM-BP-zoQ"/>
+                            <constraint firstAttribute="bottom" secondItem="io8-8l-fLb" secondAttribute="bottom" constant="-15" id="cpr-76-5Da"/>
                             <constraint firstItem="8wE-dH-gf4" firstAttribute="top" secondItem="pvF-gs-rcw" secondAttribute="bottom" constant="62" id="gTw-ag-vpU"/>
+                            <constraint firstAttribute="bottom" secondItem="hJX-dk-TTY" secondAttribute="bottom" constant="-15" id="gnk-Nl-8tW"/>
                             <constraint firstItem="8wE-dH-gf4" firstAttribute="leading" secondItem="0hN-C8-0T0" secondAttribute="leading" constant="16" id="ltQ-cX-JdP"/>
                             <constraint firstItem="0hN-C8-0T0" firstAttribute="trailing" secondItem="5ET-g7-tPc" secondAttribute="trailing" constant="31" id="mQV-EF-nOL"/>
-                            <constraint firstItem="urd-3y-YyX" firstAttribute="centerX" secondItem="0hN-C8-0T0" secondAttribute="centerX" id="nhE-pb-6WQ"/>
                             <constraint firstItem="VGB-m1-TZC" firstAttribute="top" secondItem="ukW-Wl-fVR" secondAttribute="bottom" constant="76" id="wjT-KG-AI7"/>
                             <constraint firstItem="5ET-g7-tPc" firstAttribute="top" secondItem="VGB-m1-TZC" secondAttribute="bottom" constant="60" id="yk0-lC-5p0"/>
                         </constraints>
@@ -171,10 +184,11 @@
         <image name="CatIMG" width="177.5" height="152"/>
         <image name="CowIMG" width="203.5" height="186"/>
         <image name="DogIMG" width="194.5" height="157.5"/>
-        <image name="GrassIMG" width="500.5" height="124.5"/>
+        <image name="LeftGrass" width="210" height="126"/>
         <image name="LionIMG" width="160" height="191"/>
         <image name="MonkeyIMG" width="191" height="154"/>
         <image name="PigIMG" width="205.5" height="156.5"/>
+        <image name="RightGrass" width="273.5" height="137"/>
         <image name="SelfIMG" width="905" height="1207"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="person" catalog="system" width="128" height="117"/>
