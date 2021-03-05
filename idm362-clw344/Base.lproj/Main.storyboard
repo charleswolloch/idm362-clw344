@@ -63,7 +63,7 @@
         <!--Home-->
         <scene sceneID="Ror-6x-0GY">
             <objects>
-                <viewController id="hpU-fI-Jvg" sceneMemberID="viewController">
+                <viewController id="hpU-fI-Jvg" customClass="ViewController" customModule="idm362_clw344" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="764-ED-EHR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,6 +75,10 @@
                                     <constraint firstAttribute="width" constant="140" id="qv0-Vl-oiz"/>
                                 </constraints>
                                 <state key="normal" image="CatIMG"/>
+                                <connections>
+                                    <action selector="catButton:" destination="hpU-fI-Jvg" eventType="touchUpInside" id="I0R-ij-bUa"/>
+                                    <action selector="catButton:" destination="tov-zO-uxP" eventType="touchUpInside" id="an2-P9-VzS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukW-Wl-fVR">
                                 <rect key="frame" x="219" y="35" width="140" height="114"/>
@@ -83,6 +87,9 @@
                                     <constraint firstAttribute="width" constant="140" id="RwN-oF-hgv"/>
                                 </constraints>
                                 <state key="normal" image="DogIMG"/>
+                                <connections>
+                                    <action selector="dogButton:" destination="hpU-fI-Jvg" eventType="touchUpInside" id="TOX-qi-SGn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wE-dH-gf4">
                                 <rect key="frame" x="16" y="214" width="140" height="128"/>
@@ -91,6 +98,9 @@
                                     <constraint firstAttribute="height" constant="128" id="WNw-E3-Ciw"/>
                                 </constraints>
                                 <state key="normal" image="CowIMG"/>
+                                <connections>
+                                    <action selector="cowButton:" destination="hpU-fI-Jvg" eventType="touchUpInside" id="dJR-RM-sYY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGB-m1-TZC">
                                 <rect key="frame" x="219" y="225" width="140" height="107"/>
@@ -99,6 +109,9 @@
                                     <constraint firstAttribute="width" constant="140" id="cRb-CN-HYi"/>
                                 </constraints>
                                 <state key="normal" image="PigIMG"/>
+                                <connections>
+                                    <action selector="pigButton:" destination="hpU-fI-Jvg" eventType="touchUpInside" id="Pqa-j9-p0s"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6F-UK-S6C">
                                 <rect key="frame" x="16" y="402" width="140" height="113"/>
@@ -107,6 +120,9 @@
                                     <constraint firstAttribute="width" constant="140" id="onE-pE-AVj"/>
                                 </constraints>
                                 <state key="normal" image="MonkeyIMG"/>
+                                <connections>
+                                    <action selector="monkeyButton:" destination="hpU-fI-Jvg" eventType="touchUpInside" id="oTr-GZ-Ppw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ET-g7-tPc">
                                 <rect key="frame" x="234" y="392" width="110" height="132"/>
@@ -115,6 +131,9 @@
                                     <constraint firstAttribute="height" constant="132" id="prx-R4-o7h"/>
                                 </constraints>
                                 <state key="normal" image="LionIMG"/>
+                                <connections>
+                                    <action selector="lionButton:" destination="hpU-fI-Jvg" eventType="touchUpInside" id="q8Q-z4-1k6"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LeftGrass" translatesAutoresizingMaskIntoConstraints="NO" id="io8-8l-fLb">
                                 <rect key="frame" x="-23" y="534" width="179" height="99"/>
@@ -156,6 +175,7 @@
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house" id="aSA-gL-EMn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YqC-Z3-GRb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="tov-zO-uxP" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-1143.2" y="-133.5832083958021"/>
         </scene>
